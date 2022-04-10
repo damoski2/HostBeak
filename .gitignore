@@ -15,8 +15,6 @@
 # production
 /build
 
-/DP_trial_111617
-
 # misc
 .DS_Store
 *.pem
