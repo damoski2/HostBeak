@@ -143,10 +143,9 @@ const LinksDrawer = ({ activeTab, setActiveTab, openMenu, setOpenMenu }) => {
           width: openMenu&& '70%',
           }} >
         {links.map((link, index) => (
-          <div className={styles.outer__div}>
+          <div key={index} className={styles.outer__div}>
             <div
               onClick={link.onClick}
-              key={index}
               className={styles.row__link}
               style={{ marginBottom: link.name === activeTab && "0" }}
             >

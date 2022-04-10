@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Navbar, Links, LinksDrawer, BackDrop, Billing, Analytics } from "../components/import";
 import styles from "../styles/dashboard.module.css";
 
-const dashboard = () => {
+const Dashboard = () => {
   const [activeTab, setActiveTab] = useState("Purchases");
   const [openMenu, setOpenMenu] = useState(false);
 
@@ -50,4 +50,4 @@ const dashboard = () => {
   );
 };
 
-export default dashboard;
+export default Dashboard;
