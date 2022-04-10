@@ -1,0 +1,117 @@
+.cnt{
+    background-color: #ffffff;
+    padding: 3em 2em;
+    border-radius: 8px;
+    font-family: 'Roobert-regular';
+}
+
+.cnt h1{
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    font-family: 'Roobert-bold';
+}
+
+.row__details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #e1e1e1;
+    border-bottom: none;
+    padding: 1em 2em;
+}
+
+.row__details:last-child{
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.row__details button{
+    color: #ffffff;
+    background: #3DB0FF;
+    width: 168px;
+    height: 57px;
+    border-radius: 4px;
+    border: none;
+}
+
+.row__details p{
+    text-align: left;
+    font-size: 18px;
+    line-height: 28px;
+    color: #667085;
+    align-self: center;
+    margin: 0;
+}
+
+.row__details h3{
+    display: flex;
+    color: #304156;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    margin: 0;
+}
+
+.inner__div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 57%;
+}
+
+.inner__div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 22%;
+}
+
+.messageIcon{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+
+.row__details input[type="checkbox"]{
+    width: 21.2px;
+    height: 21.2px;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+
+@media(max-width:992px){
+    .row__details{
+        flex-direction: column;
+    }
+
+    .inner__div1{
+        width: 100%;
+    }
+
+    .inner__div2{
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .messageIcon{
+        margin-left: 2em;
+    }
+}
+
+
+@media(max-width:437){
+    .row__details input[type="checkbox"]{
+        width: 31.2px;
+        height: 31.2px;
+    }
+
+    .row__details{
+        padding: unset;
+    }
+}
+
+

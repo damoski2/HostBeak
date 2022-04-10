@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
+
+# <h1 align="center" >HostBeak</h1>
+# <p align="center">Developed by Oyindacodes</p>
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Sign Up Page
+* View at [http://localhost:3000](http://localhost:3000) ![SignUp](https://res.cloudinary.com/oyindacodes/image/upload/v1649586497/Screenshot_2022-04-10_at_11.25.40_jrkp1b.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<br />
+<br />
 
-## Learn More
+## Purchase Screen
 
-To learn more about Next.js, take a look at the following resources:
+* View at [http://localhost:3000/dashboard](http://localhost:3000/dashboard), Toggle by clicking purchases option from the drop down
+![Purchase Screen](https://res.cloudinary.com/oyindacodes/image/upload/v1649586034/Screenshot_2022-04-10_at_11.19.38_hf3igh.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<br />
+<br />
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Analytic Screen
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* While at same url [http://localhost:3000/dashboard](http://localhost:3000/dashboard), Toggle by clicking analytics option from the drop down
+![Purchase Screen](https://res.cloudinary.com/oyindacodes/image/upload/v1649586034/Screenshot_2022-04-10_at_11.19.57_likmgp.png)
+
+<br />
+
+<bold>My [Linkedin Profile](https://www.linkedin.com/in/oyindacodes/) 😁🚀 </bold>

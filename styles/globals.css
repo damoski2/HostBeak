@@ -2,9 +2,24 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+
+@font-face{
+  src: url('../DP_trial_111617/DP_roobert_TRIAL/RoobertTRIAL-Bold.otf');
+  font-family: 'Roobert-bold';
+}
+
+@font-face{
+  src: url('../DP_trial_111617/DP_roobert_TRIAL/RoobertTRIAL-Regular.otf');
+  font-family: 'Roobert-regular';
+}
+
+@font-face{
+  src: url('../DP_trial_111617/DP_roobert_TRIAL/RoobertTRIAL-Light.otf');
+  font-family: 'Roobert-light';
+}
+
+
 
 a {
   color: inherit;
