@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../../styles/SignUp.module.css";
 import { signUpImg } from "../../images";
+import { useRouter } from 'next/router'
 
 const FormLayout = () => {
+
+  let router = useRouter();
+  const [values, setValues] = useState([])
+
+  const submit = (e)=>{
+    e.preventDefault();
+
+    router.push('/dashboard')
+  }
+
   return (
-    <form className={styles.form} >
+    <form onSubmit={submit} className={styles.form} >
       <h1>Create Account</h1>
       <h3>Build an exceptional business</h3>
       <div className={styles.split__div}>
