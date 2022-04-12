@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { arrowLogoIcon, logo, notificationIcon, navbarArrowDownIcon, avatar } from '../../images'
 import styles from '../../styles/Navbar.module.css';
+import { GlobalContext } from '../../context/GlobalContext'
 
 const Navbar = ({ openMenu, setOpenMenu }) => {
+
+  const { values } = useContext(GlobalContext)
+
   return (
     <nav className={styles.navbar} style={{ zIndex: openMenu&& '150', position: openMenu&& 'relative' }} >
         <div className={styles.logo__div} >
@@ -16,7 +20,7 @@ const Navbar = ({ openMenu, setOpenMenu }) => {
                 <img src={notificationIcon} alt="notification Icon" />
             </div>
             <img className={styles.avatar} src={avatar} alt="avatar" />
-            <p>Ogoluwa</p>
+            <p>{values.firstName? `${values.firstName}` : 'Ogoluwa'}</p>
             <img className={styles.navbarArrowDownIcon} src={navbarArrowDownIcon} alt="navbarArrowDownIcon" />
         </div>
 
